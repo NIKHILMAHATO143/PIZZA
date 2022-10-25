@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+header{
+    background: url(pizza.jpg);
+width: 100%;
+height: 100vh;
+background-repeat:no-repeat;
+background-size: 50% 80%;
+background-position: top right;
+position: relative;
+}
+nav{
+width: 100%;
+height: 70px;
+padding: 0px 70px;
+background: white;
+color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 5px 5px 10px gray;
+}
+.logo{
+font-weight: bold;
+font-size: 2em;
+letter-spacing: 2px;
+}
+.logo span{
+    color: brown;
+}
+.menu a{
+text-decoration: none;
+color: black;
+padding: 10px 20px;
+}
+.menu a:last-child{
+    background: rgb(165, 42, 42);
+    color: azure;
+    border-radius: 8px;
+    
+}
+.h-text{
+    position: absolute;
+    top:30%;
+    left: 5%;
+    padding:5px;
+}
+.h-text p{
+    color: black;
+    letter-spacing:3px;
+    font-weight: bold;
+}
+.h-text h1{
+    font-size: 3em;
+    line-height:1em;
+}
+.h-text h1 span{
+    color: brown;
+}
+.h-text h2{
+    font-size: 4em;
+    margin-bottom: 0.1em;
+}
+#order{
+    text-decoration: none;
+    color: azure;
+    background-color: brown;
+    border-radius: 8px;
+    padding: 3px 15px;
+}
+#dis{
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(109, 122, 123);
+    border-radius: 8px;
+    padding: 3px 15px;
+}
+#pizzaimage{
+    position:absolute;
+    bottom:0%;
+    left: 5%;
+}
+#pizzaimage img{
+    transition: 0.4s ease;
+}
+#pizzaimage img:hover{
+transform: translateY(10PX);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><span>Pi</span>zzahat</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Foods</a>
+                <a href="#">Offer's</a>
+                <a href="#">Your Order</a>
+                <a href="#">Delivery</a>
+                <a href="#">Cart</a>
+                
+
+            </div>
+        </nav>
+        <div class="h-text">
+            <p> Free Home Delivery</p>
+            <h1> Quality f<span>oo</span>ds</h1>
+            <h2>Pizza of the Week</h2>
+            <a href="#" id="order"> Order now!!</a> 
+            
+            <a href="#" id="dis">25% Off Hurry!!</a>
+        </div>
+        <div id="pizzaimage">
+            <img src="C:\Users\Nikhil\OneDrive\Pictures\pizzkatukra.jfif">
+            <img src="C:\Users\Nikhil\OneDrive\Pictures\pizzkatukra.jfif">
+            <img src="C:\Users\Nikhil\OneDrive\Pictures\pizzkatukra.jfif">
+        </div>
+    </header>
+    
+</body>
+</html>
